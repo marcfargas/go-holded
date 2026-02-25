@@ -1,6 +1,6 @@
 {
   "name": "@marcfargas/go-holded",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Holded API made easy — invoicing, CRM, accounting, projects, team. Library + CLI for AI agents and humans.",
   "type": "module",
   "exports": {
