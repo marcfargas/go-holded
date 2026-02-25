@@ -1,0 +1,14 @@
+node_modules/
+package-lock.json
+**/dist/
+**/*.tsbuildinfo
+.env
+.env.local
+**/coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Pi config is tracked (except plans)
+!.pi/
+.pi/plans/
