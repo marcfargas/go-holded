@@ -1,0 +1,21 @@
+{
+  "name": "go-holded-workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w packages/holded",
+    "test": "npm test -w packages/holded",
+    "lint": "npm run lint -w packages/holded",
+    "format": "npm run format -w packages/holded",
+    "format:check": "npm run format:check -w packages/holded",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.5.2",
+    "@changesets/cli": "^2.29.8"
+  }
+}

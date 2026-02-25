@@ -1,0 +1,33 @@
+{
+  "name": "go-holded",
+  "version": "0.1.0",
+  "description": "CLI for the Holded API — npx go-holded contacts list",
+  "type": "module",
+  "bin": {
+    "go-holded": "bin.js"
+  },
+  "files": [
+    "bin.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "@marcfargas/go-holded": "^0.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "holded",
+    "api",
+    "cli",
+    "erp",
+    "invoicing"
+  ],
+  "author": "Marc Fargas <marc@marcfargas.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcfargas/go-holded.git",
+    "directory": "packages/go-holded"
+  }
+}
